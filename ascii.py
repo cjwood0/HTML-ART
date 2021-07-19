@@ -157,7 +157,7 @@ def main():
     f.write('<body style="font-family:\'mono\'">')
     # write each string in the list to the new file
     for row in aimg:
-        f.write(row + '<br />')
+        f.write(row + '<br />\n')
         # clean up
     f.write('</body>')
     f.close()
